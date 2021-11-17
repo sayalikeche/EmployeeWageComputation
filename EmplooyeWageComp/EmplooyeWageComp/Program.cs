@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace EmployeeAttendanc
+namespace EmployeeWage
 {
-    class Program 
+    class Program
     {
         static void Main(string[] args)
         {
-            
-            EmployeeWage.MonthlyEmployeeWage("Myntra", 50, 20, 130);
-            EmployeeWage.MonthlyEmployeeWage("Flipkart", 90, 20, 150);
+            Console.WriteLine("Welcom to the Employee Wage Problem");
+            EmpWage employee = new EmpWage();
+            employee.MonthlyEmpWage();
         }
     }
 }
